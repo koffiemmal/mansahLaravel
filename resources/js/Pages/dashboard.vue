@@ -37,8 +37,15 @@ export default {
             default: "Myoffer",
         },
     },
+    methods: {
+        startTour() {
+            introJs().start(); // Démarrer le tutoriel
+        },
+    },
 
     mounted() {
+        this.startTour();
+
         console.log("Component mounted.", this.title);
         /**
  *         switch (this.title) {
