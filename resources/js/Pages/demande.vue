@@ -52,7 +52,7 @@ export default {
     const items = ref([
       {
         name: "Demande de transfert vers Canada",
-        amount: 500000,
+        amount: 500000, 
         rate: 450,
         state:"rejeter"
       },
